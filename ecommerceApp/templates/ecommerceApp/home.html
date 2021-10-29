@@ -1,0 +1,41 @@
+{% extends 'ecommerceApp/index.html' %}
+{% load static %}
+
+{% block title %}
+{{setting.title}}
+{% endblock title %}
+{% block description %}{% endblock description %}
+{% block keywords %}{% endblock keywords %}
+
+{% block header %}
+    {% include "ecommerceApp/header.html" %}
+{% endblock header %}
+{% block sidebar %}
+
+{% endblock sidebar %}
+
+{% block slider %}
+    {% include "ecommerceApp/slider.html" %}
+{%endblock%}
+<!-- Begin Body Wrapper -->
+<!-- Begin Slider With Banner Area -->
+{%block mainbody%}
+
+
+{% include "ecommerceApp/content.html" %}
+{% endblock %}
+<!-- Li's Trendding Products Area End Here -->
+<!-- Begin Footer Area -->
+{% block footer %}
+
+{% include "ecommerceApp/footer.html" %}
+
+{% endblock footer %}
+
+<!-- Slider With Banner Area End Here -->
+<!-- Begin Product Area -->
+
+<!-- Product Area End Here -->
+<!-- Begin Li's Static Banner Area -->
+
+
